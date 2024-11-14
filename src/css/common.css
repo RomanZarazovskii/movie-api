@@ -1,0 +1,48 @@
+body {
+  margin: 40px;
+}
+
+.form {}
+
+.form__input {
+  padding: 15px;
+  border: 1px solid grey;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.form__button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: rgb(28, 28, 150);
+  border: none;
+}
+
+.articles__list {}
+
+.load-more__button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: rgb(28, 28, 150);
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+}
+
+.item {
+  width: 250px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.articles__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
